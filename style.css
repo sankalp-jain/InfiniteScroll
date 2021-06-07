@@ -1,0 +1,36 @@
+body {    
+    margin: 0 !important;
+    background-color: #3bb2f7;
+}
+
+#container {
+	height: 120px;
+	width: 200px;
+}
+
+#para {
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	color: white;
+}
+
+button {
+	height: 30px;
+	width: 75px;
+	margin: 10px;
+	font-family: OpenSans;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #ccc8c8;
+    position: relative;
+    top: 0px;
+    transition: all ease 0.3s;
+}
+
+button:active {
+  box-shadow: 0 3px 0 #00823F;
+  top: 3px;
+}
